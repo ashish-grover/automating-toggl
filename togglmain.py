@@ -11,6 +11,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
 from togglservice import startTimeEntry
+from logger import logMessage
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
@@ -34,8 +35,7 @@ def googleCalendarAPISetup():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                'googlecalendarapicredentials.json', SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file('C:\\Users\\agrover\\pythonprojects\\Toggl\\googlecalendarapicredentials.json', SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
         with open('token.pickle', 'wb') as token:
@@ -65,8 +65,6 @@ def validateStartOfEvent(events):
         if (start_formatted < now_formatted + datetime.timedelta(minutes=THRESHOLDTIME)):
             validateAgainstRunningEvent(event)
             writeEventIdToFile(event['id'])
-        else:
-            print('No upcoming events within the next ' + str(THRESHOLDTIME) + ' mins found.')
 
 def validateAgainstRunningEvent(event):
     # Grab the id of the event and check if its already been tagged.
@@ -77,17 +75,14 @@ def validateAgainstRunningEvent(event):
 
     # Check if both the api_event_id and file_event_id are the same.
     # If they are, then skip this event.  If not, then start a new Toggl entry.
-    
-    print('api_event_id: ' + api_event_id)
-    print('api_event_summary: ' + api_event_summary)
     if (api_event_id == file_event_id):
-        print('event is already being toggl\'d')
         sys.exit(1)
     else:
         startTimeEntry(api_event_summary)
+        logMessage('Starting time entry for: ' + api_event_summary)
 
 def readEventIdFromFile():
-    json_file = open('calendardata.json', 'r')
+    json_file = open('C:\\Users\\agrover\\pythonprojects\\Toggl\\calendardata.json', 'r')
     json_file_read = json_file.read()
     json_file.close()
 
@@ -97,7 +92,7 @@ def readEventIdFromFile():
 def writeEventIdToFile(event_id):
     file_data = {'calendar_data':{'last_event_id':event_id}}
 
-    with open('calendardata.json', 'w', encoding = 'utf-8') as f:
+    with open('C:\\Users\\agrover\\pythonprojects\\Toggl\\calendardata.json', 'w', encoding = 'utf-8') as f:
         json.dump(file_data, f, ensure_ascii = False, indent = 4)
 
     f.close()
@@ -112,6 +107,7 @@ def main():
     # Check for events
     if not events:
         print('No upcoming events found.')
+        logMessage('No upcoming events found.')
         sys.exit(1)
 
     # Now that we have an event, validate the start of the event is within the threshold

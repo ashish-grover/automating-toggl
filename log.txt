@@ -1,0 +1,147 @@
+2020-06-10 10:46:03.966136: event is already being toggl'd
+2020-06-10 10:47:03.008783: event is already being toggl'd
+2020-06-10 10:48:03.278443: event is already being toggl'd
+2020-06-10 10:49:03.562429: event is already being toggl'd
+2020-06-10 10:50:04.208137: event is already being toggl'd
+2020-06-10 10:51:03.777844: event is already being toggl'd
+2020-06-10 10:52:03.800710: event is already being toggl'd
+2020-06-10 10:53:03.333587: event is already being toggl'd
+2020-06-10 10:54:02.863413: event is already being toggl'd
+2020-06-10 10:55:03.059776: event is already being toggl'd
+2020-06-10 10:56:02.966230: event is already being toggl'd
+2020-06-10 10:57:02.958969: event is already being toggl'd
+2020-06-10 10:58:03.102731: event is already being toggl'd
+2020-06-10 10:59:03.021619: event is already being toggl'd
+2020-06-10 11:00:02.904789: Starting time entry for: Interview - Upstream Works Software - Divya Labu - Intermediate Dev.
+2020-06-10 11:01:03.027091: event is already being toggl'd
+2020-06-10 11:02:02.996823: event is already being toggl'd
+2020-06-10 11:03:02.918835: event is already being toggl'd
+2020-06-10 11:04:03.054924: event is already being toggl'd
+2020-06-10 11:05:03.050822: event is already being toggl'd
+2020-06-10 11:06:02.947238: event is already being toggl'd
+2020-06-10 11:07:03.908593: event is already being toggl'd
+2020-06-10 11:08:04.436985: event is already being toggl'd
+2020-06-10 11:09:04.159512: event is already being toggl'd
+2020-06-10 11:10:04.328393: event is already being toggl'd
+2020-06-10 11:11:05.732386: event is already being toggl'd
+2020-06-10 11:12:04.381462: event is already being toggl'd
+2020-06-10 11:13:04.816211: event is already being toggl'd
+2020-06-10 11:14:05.164652: event is already being toggl'd
+2020-06-10 11:15:04.627866: event is already being toggl'd
+2020-06-10 11:16:04.250160: event is already being toggl'd
+2020-06-10 11:17:04.152233: event is already being toggl'd
+2020-06-10 11:18:03.685419: event is already being toggl'd
+2020-06-10 11:19:03.558939: event is already being toggl'd
+2020-06-10 11:20:04.086258: event is already being toggl'd
+2020-06-10 11:21:03.460319: event is already being toggl'd
+2020-06-10 11:22:03.487043: event is already being toggl'd
+2020-06-10 11:23:03.747676: event is already being toggl'd
+2020-06-10 11:24:03.426959: event is already being toggl'd
+2020-06-10 11:25:03.620897: event is already being toggl'd
+2020-06-10 11:26:04.112830: event is already being toggl'd
+2020-06-10 11:27:07.109385: event is already being toggl'd
+2020-06-10 11:28:03.732495: event is already being toggl'd
+2020-06-10 11:29:03.970041: event is already being toggl'd
+2020-06-10 11:30:03.758357: event is already being toggl'd
+2020-06-10 11:31:03.743750: event is already being toggl'd
+2020-06-10 11:32:03.610912: event is already being toggl'd
+2020-06-10 11:33:03.637656: event is already being toggl'd
+2020-06-10 11:34:03.723168: event is already being toggl'd
+2020-06-10 11:35:04.417410: event is already being toggl'd
+2020-06-10 11:36:03.583927: event is already being toggl'd
+2020-06-10 11:37:03.396732: event is already being toggl'd
+2020-06-10 11:38:03.481465: event is already being toggl'd
+2020-06-10 11:39:03.416844: event is already being toggl'd
+2020-06-10 11:40:06.331232: event is already being toggl'd
+2020-06-10 11:41:04.604942: event is already being toggl'd
+2020-06-10 11:42:03.728218: event is already being toggl'd
+2020-06-10 11:43:04.243440: event is already being toggl'd
+2020-06-10 11:44:03.544435: event is already being toggl'd
+2020-06-10 11:45:03.573127: event is already being toggl'd
+2020-06-10 11:46:07.025513: event is already being toggl'd
+2020-06-10 11:47:06.806286: event is already being toggl'd
+2020-06-10 11:48:03.493121: event is already being toggl'd
+2020-06-10 11:49:03.657578: event is already being toggl'd
+2020-06-10 11:50:04.508769: event is already being toggl'd
+2020-06-10 11:51:03.408160: event is already being toggl'd
+2020-06-10 11:52:03.876836: event is already being toggl'd
+2020-06-10 11:53:03.449200: event is already being toggl'd
+2020-06-10 11:54:03.684743: event is already being toggl'd
+2020-06-10 11:55:03.776325: event is already being toggl'd
+2020-06-10 11:56:04.246916: event is already being toggl'd
+2020-06-10 11:57:03.402945: event is already being toggl'd
+2020-06-10 11:58:04.054411: event is already being toggl'd
+2020-06-10 11:59:03.565186: event is already being toggl'd
+2020-06-10 12:00:03.767674: No upcoming events within the next 5 mins found.
+2020-06-10 12:01:04.436314: No upcoming events within the next 5 mins found.
+2020-06-10 12:02:04.706204: No upcoming events within the next 5 mins found.
+2020-06-10 12:03:03.909810: No upcoming events within the next 5 mins found.
+2020-06-10 12:04:03.725601: No upcoming events within the next 5 mins found.
+2020-06-10 12:05:04.820869: No upcoming events within the next 5 mins found.
+2020-06-10 12:06:03.653919: No upcoming events within the next 5 mins found.
+2020-06-10 12:07:03.758077: No upcoming events within the next 5 mins found.
+2020-06-10 12:08:03.513830: No upcoming events within the next 5 mins found.
+2020-06-10 12:09:03.834262: No upcoming events within the next 5 mins found.
+2020-06-10 12:10:03.652665: No upcoming events within the next 5 mins found.
+2020-06-10 12:11:04.960900: No upcoming events within the next 5 mins found.
+2020-06-10 12:12:03.673748: No upcoming events within the next 5 mins found.
+2020-06-10 12:13:03.786398: No upcoming events within the next 5 mins found.
+2020-06-10 12:14:03.688335: No upcoming events within the next 5 mins found.
+2020-06-10 12:15:03.606338: No upcoming events within the next 5 mins found.
+2020-06-10 12:16:03.677990: No upcoming events within the next 5 mins found.
+2020-06-10 12:17:04.537362: No upcoming events within the next 5 mins found.
+2020-06-10 12:18:04.303067: No upcoming events within the next 5 mins found.
+2020-06-10 12:19:04.975007: No upcoming events within the next 5 mins found.
+2020-06-10 12:20:04.735034: No upcoming events within the next 5 mins found.
+2020-06-10 12:21:03.706651: No upcoming events within the next 5 mins found.
+2020-06-10 12:22:03.589706: No upcoming events within the next 5 mins found.
+2020-06-10 12:23:03.784653: No upcoming events within the next 5 mins found.
+2020-06-10 12:24:03.425934: No upcoming events within the next 5 mins found.
+2020-06-10 12:25:03.313857: No upcoming events within the next 5 mins found.
+2020-06-10 12:26:02.942936: No upcoming events within the next 5 mins found.
+2020-06-10 12:27:02.948487: No upcoming events within the next 5 mins found.
+2020-06-10 12:28:02.925116: No upcoming events within the next 5 mins found.
+2020-06-10 12:29:02.838995: No upcoming events within the next 5 mins found.
+2020-06-10 12:30:02.858036: No upcoming events within the next 5 mins found.
+2020-06-10 12:31:04.123265: No upcoming events within the next 5 mins found.
+2020-06-10 12:32:02.693774: No upcoming events within the next 5 mins found.
+2020-06-10 12:33:02.829032: No upcoming events within the next 5 mins found.
+2020-06-10 12:34:03.015809: No upcoming events within the next 5 mins found.
+2020-06-10 12:35:03.070987: No upcoming events within the next 5 mins found.
+2020-06-10 12:36:02.873397: No upcoming events within the next 5 mins found.
+2020-06-10 12:37:02.842828: No upcoming events within the next 5 mins found.
+2020-06-10 12:38:02.883788: No upcoming events within the next 5 mins found.
+2020-06-10 12:39:02.972755: No upcoming events within the next 5 mins found.
+2020-06-10 13:00:02.795272: Starting time entry for: Paychex/Upstream Monthly Partnership Meeting
+2020-06-10 13:01:02.556773: event is already being toggl'd
+2020-06-10 13:02:02.625619: event is already being toggl'd
+2020-06-10 13:03:02.637903: No upcoming events within the next 5 mins found.
+2020-06-10 13:04:02.622863: No upcoming events within the next 5 mins found.
+2020-06-10 13:05:02.632487: No upcoming events within the next 5 mins found.
+2020-06-10 13:06:02.741608: No upcoming events within the next 5 mins found.
+2020-06-10 13:07:02.633674: No upcoming events within the next 5 mins found.
+2020-06-10 13:08:02.637803: No upcoming events within the next 5 mins found.
+2020-06-10 13:09:02.825538: No upcoming events within the next 5 mins found.
+2020-06-10 13:10:02.562605: No upcoming events within the next 5 mins found.
+2020-06-10 13:11:02.639218: No upcoming events within the next 5 mins found.
+2020-06-10 13:12:02.652788: No upcoming events within the next 5 mins found.
+2020-06-10 13:13:02.639948: No upcoming events within the next 5 mins found.
+2020-06-10 13:14:02.636944: No upcoming events within the next 5 mins found.
+2020-06-10 13:15:03.236044: No upcoming events within the next 5 mins found.
+2020-06-10 13:16:02.778835: No upcoming events within the next 5 mins found.
+2020-06-10 13:17:02.633250: No upcoming events within the next 5 mins found.
+2020-06-10 13:18:02.623383: No upcoming events within the next 5 mins found.
+2020-06-10 13:19:02.764481: No upcoming events within the next 5 mins found.
+2020-06-10 13:20:02.632605: No upcoming events within the next 5 mins found.
+2020-06-10 13:21:02.614982: No upcoming events within the next 5 mins found.
+2020-06-10 13:22:02.635159: No upcoming events within the next 5 mins found.
+2020-06-10 13:23:02.631209: No upcoming events within the next 5 mins found.
+2020-06-10 13:24:02.564225: No upcoming events within the next 5 mins found.
+2020-06-10 13:25:02.643095: Starting time entry for: Team Gigafactory Catchup
+2020-06-10 13:26:02.768668: event is already being toggl'd
+2020-06-10 13:27:02.664860: event is already being toggl'd
+2020-06-10 14:30:02.805005: Starting time entry for: Chat with Valeria
+2020-06-10 15:00:02.730637: Starting time entry for: Onboarding Remotely with Ashish
+2020-06-10 16:00:02.837484: Starting time entry for: 30% completion demo - Tool for DB installation
+2020-06-11 08:55:03.270496: Starting time entry for: Kate and Sean 1-1
+2020-06-11 09:30:04.045119: Starting time entry for: Shahabodin / Sean 1-1
