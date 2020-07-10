@@ -91,7 +91,7 @@ def validateAgainstRunningEvent(event):
         logMessage('Starting time entry for: ' + api_event_summary)
 
 def readEventIdFromFile():
-    json_file = open('C:\\Users\\agrover\\pythonprojects\\Toggl\\calendardata.json', 'r')
+    json_file = open('./calendardata.json', 'r')
     json_file_read = json_file.read()
     json_file.close()
 
@@ -101,7 +101,7 @@ def readEventIdFromFile():
 def writeEventIdToFile(event_id):
     file_data = {'calendar_data':{'last_event_id':event_id}}
 
-    with open('C:\\Users\\agrover\\pythonprojects\\Toggl\\calendardata.json', 'w', encoding = 'utf-8') as f:
+    with open('./calendardata.json', 'w', encoding = 'utf-8') as f:
         json.dump(file_data, f, ensure_ascii = False, indent = 4)
 
     f.close()
