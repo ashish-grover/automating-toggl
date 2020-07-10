@@ -45,22 +45,31 @@ def googleCalendarAPISetup():
 
 def googleCalendarAPITrigger(service):
     now = datetime.datetime.utcnow().isoformat() + "Z" # 'Z' indicates UTC time
+    print(now)
     events_result = service.events().list(calendarId='primary', timeMin=now,
-                                        maxResults=1, singleEvents=True,
+                                        maxResults=2, singleEvents=True,
                                         orderBy='startTime').execute()
     return events_result.get('items', [])
 
 def validateStartOfEvent(events):
+    print('number of events: ' + str(len(events)))
     for event in events:
         ##start comes in the following format: "%Y-%m-%dT%H:%M:%S%z"
         ##example: 2020-06-08T10:00:00-04:00
         event_start = event['start'].get('dateTime', event['start'].get('date'))
+        event_end = event['end'].get('dateTime', event['end'].get('date'))
+
+        ##dates suck.  convert to a string first (above) then convert back to object (below).        
+        start_formatted = datetime.datetime.strptime(event_start, "%Y-%m-%dT%H:%M:%S%z")
+        end_formatted = datetime.datetime.strptime(event_end, "%Y-%m-%dT%H:%M:%S%z")
+        event_length_in_hours = (end_formatted - start_formatted).total_seconds() / 3600
+
+        if (event_length_in_hours == 8):
+            continue
+
         local_utc = datetime.datetime.now(datetime.timezone.utc) # UTC time
         local_time = local_utc.astimezone().strftime("%Y-%m-%dT%H:%M:%S%z") # local time
 
-        ##dates suck.  convert to a string first (above) then convert back to object (below).        
-
-        start_formatted = datetime.datetime.strptime(event_start, "%Y-%m-%dT%H:%M:%S%z")
         now_formatted = datetime.datetime.strptime(local_time, "%Y-%m-%dT%H:%M:%S%z")
         if (start_formatted < now_formatted + datetime.timedelta(minutes=THRESHOLDTIME)):
             validateAgainstRunningEvent(event)
