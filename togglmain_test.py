@@ -87,7 +87,7 @@ def validateAgainstRunningEvent(event):
     if (api_event_id == file_event_id):
         sys.exit(1)
     else:
-        startTimeEntry(api_event_summary)
+        #startTimeEntry(api_event_summary)
         log.logMessage('Starting time entry for: ' + api_event_summary)
 
 def readEventIdFromFile():
